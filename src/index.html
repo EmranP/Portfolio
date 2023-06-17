@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "Portfolio"
+})
+
+<body>
+	@@include('html/layout.html', {})
+	<div class="wrapper">
+		@@include('html/header.html', {})
+		<main class="content">
+			<section class="__container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
+				<div class="about__body">
+					<div class="item">
+						<h1 class="about-title">Emran</h1>
+						<p class="subtitle">FrontEnd-Developer</p>
+						<button class="btn-about">Узнать больше</button>
+					</div>
+					<div class="about__img">
+						<img src="@img/man.png" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="What-make __container">
+				<div class="title__what">
+					<h1 class="title">Что я делаю</h1>
+				</div>
+				<div class="flex-container__what-make">
+					<div class="what-make __item" data-aos="fade-right" data-aos-duration="1500">
+						<div class="item__img">
+							<img src="@img/1.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Вёрстка лендинг-страниц <br>и сайтов любой сложности</p>
+						</div>
+					</div>
+					<div class="what-make __item" data-aos="fade-right" data-aos-duration="1500">
+						<div class="item__img">
+							<img src="@img/2.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Адаптивная вёрстка под <br>все браузеры и устройства</p>
+						</div>
+					</div>
+					<div class="what-make __item" data-aos="fade-left" data-aos-duration="1500">
+						<div class="item__img">
+							<img src="@img/3.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Frontend-разработка <br> и программирование</p>
+						</div>
+					</div>
+					<div class="what-make __item" data-aos="fade-left" data-aos-duration="1500">
+						<div class="item__img">
+							<img src="@img/4.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Исправление и доработка <br> существующей вёрскти</p>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<button class="btn-base">Узнать стоимость</button>
+			</section>
+			<section class="examples__container __container">
+				<div class="title__what">
+					<h1 class="title">Примеры работ</h1>
+				</div>
+				<div class="examples__columns" data-aos="zoom-in" data-aos-duration="1500">
+					<div class="examples-itme">
+						<div class="examples-itme__img __img1">
+							<img src="@img/e1.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Сайт психолога Веры Антоновой</p>
+						</div>
+					</div>
+					<div class="examples-itme">
+						<div class="examples-itme__img __img2">
+							<img src="@img/e2.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Сайт магазина детской одежды</p>
+						</div>
+					</div>
+					<div class="examples-itme">
+						<div class="examples-itme__img __img3">
+							<img src="@img/e3.png" alt="">
+						</div>
+						<div class="subtitle">
+							<p>Сайт магазина <<Раболов>></p>
+						</div>
+					</div>
+				</div>
+				<button class="btn-base">Заказать проект</button>
+			</section>
+			<section class="Adaptiw">
+				<div class="Adaptiw-container __container">
+					<div class="Adaptiw__title">
+						Адаптивная вёрстка под все <br> устройства и браузеры <br> от 1000$ всего за 4 часа.*
+					</div>
+					<div class="Adaptiw__subtitle">
+						*Срок и стоимость могут отличаться от заявленных и рассчитываются <br> индивидуально, в
+						зависимости от сложности задач.
+					</div>
+				</div>
+			</section>
+			<button type="button" class="btn btn-sm btn-light m-3" id="scroll-top">
+				<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+					class="bi bi-arrow-up" viewBox="0 0 16 16">
+					<path fill-rule="evenodd"
+						d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+				</svg>
+			</button>
+		</main>
+		@@include('html/footer.html', {})
+	</div>
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
